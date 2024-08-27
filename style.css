@@ -1,10 +1,14 @@
+
+
 body {
   margin: 0;
 }
 
 .section-about-us {
   background-image: url("image/background1.png");
-  object-fit: cover;
+  object-fit:cover;
+  background-position: left;
+  background-size: 105vw 100%;
   padding-left: 110px;
   padding-right: 110px;
   height: 729px;
@@ -80,6 +84,8 @@ a {
 .company__btn-blue {
   width: 193px;
   height: 52px;
+  margin-top: 60px;
+
 }
 
 .section-about-us__header__conexion__bouton__text {
@@ -700,7 +706,7 @@ form .footer-quater__lists__link__form__email:focus {
 
   .section-work-with-us__content__title2 {
     text-align: center;
-    width: 200px;
+    width: 250px;
   }
 
   .section-work-with-us__content__paragraph {
@@ -746,8 +752,7 @@ form .footer-quater__lists__link__form__email:focus {
   }
 
   .footer-bottom__text {
-    width: 170px;
-
+    width: 200px;
     margin: 0;
     text-align: center;
   }
